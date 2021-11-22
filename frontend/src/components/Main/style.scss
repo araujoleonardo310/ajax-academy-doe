@@ -1,0 +1,120 @@
+.main {
+    width: 100%;
+    display: flex;
+
+    .animation {
+        width: 38%;
+        height: 100vh;
+        background: #8b0c0c;
+
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+
+        .markenting{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .form {
+        width: 68%;
+        height: 100vh;
+
+        padding: 4%;
+
+        .BsBookmarkHeartFill, .FaPlusCircle, .AiFillHeart {
+            font-size: 1.5em;
+            color: #e41a1a;
+        }
+
+        .FaPlusCircle, .AiFillHeart {
+            margin-right: 1em;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        .text {
+            margin-top: 1em;
+            margin-bottom: 2em;            
+            color: #757575;
+        }
+
+        p {
+            display: flex;
+        }
+
+        form {
+            margin-top: 1em;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 40%;
+            justify-content: space-between;
+        }
+
+        input {
+            width: 50em;
+            height: 3em;
+            border: 1px solid #afafaf;
+            border-radius: 1em;
+            text-indent: 1em;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+        }
+
+        button {
+            padding: 1em;
+            width: 20em;
+            border-radius: 2em;
+            color: #fff;
+            background: #b31616;
+            margin-left: 15em;
+            border: none;
+        }
+    
+    }
+
+    .result {
+        p {
+            padding-top: 1em;
+            margin: 2em 0;
+            border-top: ridge;
+            width: 80%;
+        }
+
+        .blood-container {
+            display: flex;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1em;
+            font-weight: 600;
+        }
+
+        .blood-type {
+            width: 48%;
+            height: 3.2rem;
+          
+            border-radius: 0.5rem;
+            border: 1px solid #757575;
+          
+            list-style: none;
+          
+            font-weight: 600;
+            font-size: 0.8rem;
+          
+            padding: 1rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+          
+            background-color: #d9d5d162;
+        }
+    }
+
+}
