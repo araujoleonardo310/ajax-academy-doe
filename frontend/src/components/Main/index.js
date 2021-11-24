@@ -28,9 +28,19 @@ const Main = () => {
                 </header>
 
                 <form>
-                    <input type="text" placeholder="Nome"></input>
-                    <input type="email" placeholder="Email"></input>
-                    <input type="text" placeholder="Tipo sanguíneo"></input>
+                    <div className="form_div">
+                        <input type="text" className="form_input" placeholder=" "></input>
+                        <label className="form_label">Nome</label>
+                    </div>
+                    <div className="form_div">
+                        <input type="email" className="form_input" placeholder=" "></input>
+                        <label className="form_label">E-mail</label>
+                    </div>
+                    <div className="form_div">
+                        <input type="text" className="form_input" placeholder=" "></input>
+                        <label className="form_label">Tipo Sanguíneo</label>
+                    </div>
+                    
                     <button>Quero Ajudar</button>
                 </form>
 
